@@ -1,0 +1,6 @@
+[submodule "deps/libhl"]
+	path = deps/libhl
+	url = https://github.com/xant/libhl
+[submodule "deps/libut"]
+	path = deps/libut
+	url = https://github.com/xant/libut
