@@ -1,0 +1,13 @@
+*~
+*.swp
+*.swo
+*.o
+*.a
+*.out
+*.so
+*.dylib
+test/*_test
+test/*_debug
+.DS_Store
+*.dSYM
+
