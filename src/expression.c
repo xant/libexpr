@@ -162,7 +162,7 @@ check_arithmetic(expression_t *expr)
 static int
 check_division(expression_t *expr)
 {
-    double test;
+    double test = 1;
     expression_operand_t *op1 = expr->operands[1];
 
     if(!check_arithmetic(expr))
