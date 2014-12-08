@@ -74,7 +74,7 @@ clean:
 
 .PHONY:tests
 tests: CFLAGS += -Isrc -Ideps/.incs -Wall -Werror -Wno-parentheses -Wno-pointer-sign $(CLANG_FLAGS) -DTHREAD_SAFE -g -O3
-tests: libut static
+tests:
 	@for i in $(TESTS); do\
 	  echo "$(CC) $(CFLAGS) $$i.c -o $$i libexpr.a $(LDFLAGS) -lm";\
 	  $(CC) $(CFLAGS) $$i.c -o $$i libexpr.a deps/.libs/libhl.a deps/.libs/libut.a $(LDFLAGS) -lm;\
