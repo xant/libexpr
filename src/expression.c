@@ -8,7 +8,7 @@
 #include <sys/types.h>
 #include <sys/time.h>
 
-#include "bsd_queue.h"
+#include <bsd_queue.h>
 #include "expression.h"
 #include "fbuf.h"
 #include <math.h>
