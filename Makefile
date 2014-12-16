@@ -82,7 +82,7 @@ tests:
 	for i in $(TEST_EXEC_ORDER); do echo; test/$$i; echo; done
 
 .PHONY: test
-test: static tests
+test: all tests
 
 install:
 	 @echo "Installing libraries in $(LIBDIR)"; \
