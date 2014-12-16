@@ -91,4 +91,5 @@ int main(int argc, char **argv) {
     expression_destroy(expr);
 
     ut_summary();
+    exit(ut_failed);
 }
